@@ -1,4 +1,5 @@
-git commit -a -m "提交的备注信息"  //缓存的同时并提交全部
+git status //查看文件的状态
+git commit -a -m "提交的备注信息"  //缓存的同时并提交全部,第一次不适用
 git reset --hard  提交ID  //修改当前分主为提交ID的内容
 git add . //缓存全部
 git commit -m "提交的备注信息" //将缓存里的内容全部提交
