@@ -1,0 +1,14 @@
+git commit -a -m "提交的备注信息"  //缓存的同时并提交全部
+git reset --hard  提交ID  //修改当前分主为提交ID的内容
+git add . //缓存全部
+git commit -m "提交的备注信息" //将缓存里的内容全部提交
+git checkout 切换的分支名 //切换分支操作
+git branch  //用于显示全部分支
+git log --oneline //简洁显示当前分支提交的版本(master分支可以看全部的)
+git reflog //在任何分支都可以查看全部全部提交信息(反正非常的全面)
+git merge 合并的分支名 //将分支合并到主分支中
+git remote add 远程仓储名 github项目的git地址 //添加远程仓储
+git remote show //显示全部的远程仓储名列表
+git remote show 远程仓储名 //显示查询的远程仓储名中的分支
+git push -u 远程仓储名 分支名 //分支名为master则就是开源的意思
+git clone github项目的git地址 //克隆项目，创建一个git管理的项目
